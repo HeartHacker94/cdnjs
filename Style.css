@@ -1,0 +1,219 @@
+*{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+body.wsite-background {
+  background-attachment: fixed !important;
+}
+body.wsite-custom-background {
+  background-attachment: fixed !important;
+  background-position: center bottom !important;
+}
+.wsite-background {
+  background-image: url('http://i57.tinypic.com/35hpaax.jpg') !important;
+  background-repeat: no-repeat !important;
+  background-position: 50% 50% !important;
+  background-size: cover !important;
+}
+
+
+/************** HEADER ***************/
+#header{
+	background:transparent;
+	width:400px;
+	padding:30px;
+	margin: 70px auto 0 auto;
+	text-align:center;
+}
+#header > p{
+	color:#fc0;
+	font-size:20px;
+}
+
+/************** WRAPPER ***************/
+#wrap{
+	background: rgba(154, 104, 102, 0.78);
+	width: 960px;
+	margin:auto;
+}
+
+/************** NAV BAR ***************/
+#navBar{
+	background:yellow;
+	font-size:16px;
+	border-top:3px solid #F25313;
+	border-bottom:3px solid #F25313;
+	border-radius:10px;
+	width:1000px;
+	height:50px;
+	line-height:50px;
+	margin:0 auto;
+	overflow:hidden;
+}
+#navBar ul li{
+	float:left;
+}
+#navBar ul li a:link, #navBar ul li a:visited{
+	color:#F25313;
+	padding:0 25px;
+	display:block;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:0 -1px 0px #333;
+}
+#navBar ul li a:hover{
+	background:#F25313;
+	color:#fff;
+	
+}
+#navBar ul li a:focus,#navBar ul li a:active{
+	background:#F25313;
+	color:#fff;
+}
+
+/*********** Container *************/
+#container{
+	margin:0px 30px 0px 30px;
+	padding:0px 15px 0 15px;
+	background:#fff;
+}
+#container h1{
+	color: rgba(237, 23, 23, 0.7);
+	text-align: center;
+	margin: 0px 0 50px;
+	padding-top:30px;
+	text-shadow: 2px 3px 1px #FFD605;
+	font-family: Arial
+}
+#container > h1#banner{
+	border:10px solid #4ae333;
+	padding:10px 0;
+	width:650px;
+	margin:30px auto 0;
+	border-top-left-radius:30px;
+	border-bottom-right-radius:30px;
+}
+#container > h1#banner:hover{
+	box-shadow:0 0 15px #555;
+}
+
+.slide_list{
+	background:#eee;
+	color:#F47474;
+	font-weight:bold;
+	font-size:16px;
+	padding:15px 0;
+	border-top:3px solid #F47474;
+	border-bottom:3px solid #F47474;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+.slide_list > span{
+	color:#333;
+	font-size:18px;
+	padding:0 20px;
+}
+
+div.marquee_hd{
+	color:#333;
+	text-align:center;
+	margin-bottom:3px;
+}
+marquee.marquee_pd{
+	padding:5px 0 0;
+	margin-bottom:10px;
+}
+
+#container > h2{
+	background: #F47474;
+	color: rgb(255, 234, 234);
+	padding: 15px 10px;
+	margin-top: 40px;
+	border-top: 3px dashed rgb(255, 255, 255);
+	border-bottom: 3px dashed rgb(255, 255, 255);
+}
+#poll-box{
+	padding:30px 30px 60px;
+}
+#poll-left{
+	float: left;
+	background: rgba(255, 0, 0, 0.37);
+	padding: 0 15px 15px 15px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+#poll-right{
+	float: right;
+	background: rgba(255, 0, 0, 0.37);
+	padding: 0 15px 15px 15px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+#poll-box h3{
+	text-align:center;
+	background:yellow;
+	padding:5px;
+	color:#333;
+	margin-top:-11px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+
+/*********** Tab *************/
+.container{
+	margin: 0 auto;
+	overflow:hidden;
+	background:#AEAEAE;
+}
+ul.tabs{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	border-top:1px solid rgb(124, 124, 124);
+	border-right:1px solid rgb(124, 124, 124);
+	border-left:1px solid rgb(124, 124, 124);
+}
+ul.tabs li{
+	background: none;
+	color: rgb(236, 234, 236);
+	display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+	font-weight:bold;
+	border-right: 1px solid rgb(236, 234, 236);
+	text-shadow:0 1px 1px #333;
+}
+ul.tabs li.current{
+	background: #ECEAEC;
+	color: #555;
+	text-shadow: 0 0 3px #ccc;
+}
+.tab-content{
+	display: none;
+	overflow:hidden;
+	background: #ECEAEC;
+	border-right:1px solid rgb(124, 124, 124);
+	border-left:1px solid rgb(124, 124, 124);
+	border-bottom:1px solid rgb(124, 124, 124);
+	padding: 40px 15px 30px 15px;
+}
+.tab-content.current{
+	display: inherit;
+}
+
+
+
+/************** FOOOOOOOOOTER ***************/
+#footer{
+	background:rgba(236, 100, 100, 0.72);
+	color:yellow;
+	text-align:center;
+	margin:0 auto;
+	padding:40px;
+	width:100%;
+}
+#footer a:link,#footer a:visited{
+	color:yellow;
+}
